@@ -1,0 +1,47 @@
+
+/* for page trasition*/
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s ease;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+/* for layout trasition*/
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.5s ease;
+}
+.layout-enter-from,
+.layout-leave-to {
+  opacity: 0;
+}
+/* Fade */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease-in-out;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+/* Animate Button */
+.animate-button {
+  animation: changeBgColor 2s infinite;
+}
+@keyframes changeBgColor {
+  0% {
+    background-color: #000000;
+  }
+  33% {
+    background-color: #f7088c;
+  }
+  66% {
+    background-color: #ec1f27;
+  }
+  100% {
+    background-color: #000000;
+  }
+}
+
